@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  myapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-21T15:53:38.8632269+01:00"
+    dependencies:
+    - name: tomcat
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - enabled
+      version: 10.11.10
+    description: A Helm chart for Kubernetes
+    digest: b8ab8c9c995bb088332b9a6e646671f0d0810a49b16694e259416f86b34f9d5e
+    name: myapp
+    type: application
+    urls:
+    - myapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-21T15:53:38.8515526+01:00"
